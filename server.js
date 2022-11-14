@@ -4,12 +4,13 @@ var app=express();  // will create app object from express package
 //Http Handlers
 var onDefault=function(req, res){
     res.send("<h1>Service Contoso</h1>"+
+             "<h1>Service Company</h1>"+
               "<hr/>"+
               "<ol>"+
-                    " <li>Mentoring for skill building</li>"+
-                    " <li>Workshops</li>"+
-                    " <li>Online Course</li>"+
-                    " <li>Corporate Training</li>"+
+                    " <li>Head Quarter - London</li>"+
+                    " <li>Company has 9000 employees all over world</li>"+
+                    " <li>7 offshare development centers</li>"+
+                    
              "</ol>");
 };
 
